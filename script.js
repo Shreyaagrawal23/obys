@@ -153,7 +153,9 @@ if (
   !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
     navigator.userAgent
   )
-) {}
+) {
+  sheryAnimation();
+}
   function sheryAnimation() {
     Shery.imageEffect(".img-div", {
       style: 5,
