@@ -52,7 +52,7 @@ body {
   width: 100%;
   background: color #151515;
   position: fixed;
-  z-index: 999;
+  z-index: 99999999;
   padding: 24vh 10vw;
 }
 .line {
