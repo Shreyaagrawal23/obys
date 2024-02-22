@@ -1,4 +1,5 @@
-  function locomotivesScrolltrigger() {
+ 
+ function locomotivesScrolltrigger() {
   gsap.registerPlugin(ScrollTrigger);
 
   // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
@@ -155,6 +156,7 @@ if (
   )
 ) {
   sheryAnimation();
+  cursorAnimation();
 }
   function sheryAnimation() {
     Shery.imageEffect(".img-div", {
@@ -194,8 +196,6 @@ if (
      
     });
   }
-
-
 
 function flag(){
   document.addEventListener("mousemove",function(dets){
