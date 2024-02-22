@@ -150,7 +150,6 @@ function cursorAnimation() {
     }
   });
 }
-
   function sheryAnimation() {
     Shery.imageEffect(".img-div", {
       style: 5,
@@ -189,7 +188,6 @@ function cursorAnimation() {
      
     });
   }
-
 function flag(){
   document.addEventListener("mousemove",function(dets){
     gsap.to("#Flag",{
@@ -218,7 +216,6 @@ if (
   sheryAnimation();
 }
 
-sheryAnimation();
 loaderAnimation();
 cursorAnimation();
 locomotivesScrolltrigger();
