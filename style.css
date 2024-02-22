@@ -52,7 +52,7 @@ body {
   width: 100%;
   background: color #151515;
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   padding: 24vh 10vw;
 }
 .line {
@@ -568,9 +568,8 @@ body {
 }
 
 @media (max-width:600px){
-  #loader{
-    display: none;
-  }
+ 
+
   #page1 {
   height: 50vh;
   width: 100%;
