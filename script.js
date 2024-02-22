@@ -156,8 +156,6 @@ if (
   )
 ) {
   sheryAnimation();
- locomotivesScrolltrigger()
- cursorAnimation()
 }
   function sheryAnimation() {
     Shery.imageEffect(".img-div", {
