@@ -150,13 +150,7 @@ function cursorAnimation() {
     }
   });
 }
-if (
-  !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-    navigator.userAgent
-  )
-) {
-  sheryAnimation();
-}
+
   function sheryAnimation() {
     Shery.imageEffect(".img-div", {
       style: 5,
@@ -216,7 +210,13 @@ function flag(){
     })
   })
 }
-
+if (
+  !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  )
+) {
+  sheryAnimation();
+}
 
 sheryAnimation();
 loaderAnimation();
