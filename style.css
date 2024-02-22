@@ -52,7 +52,7 @@ body {
   width: 100%;
   background: color #151515;
   position: fixed;
-  z-index: 99999999;
+  z-index: 999;
   padding: 24vh 10vw;
 }
 .line {
@@ -568,7 +568,9 @@ body {
 }
 
 @media (max-width:600px){
-  
+  #loader{
+    display: none;
+  }
   #page1 {
   height: 50vh;
   width: 100%;
@@ -746,20 +748,20 @@ body {
   margin: 5vw 0;
 }
 #page4-content > p {
-  font-size: 6vw;
-  width: 85%;
-  margin-bottom: 3vw;
+  font-size: 5.5vw;
+  width: 83%;
+  margin-bottom: 5vw;
 }
 #page4-flex {
   display: block;
 }
 #page4-flex img {
-  width: 75%;
+  width: 83%;
 
 }
 #page4-flex > p {
-  font-size: 6vw;
-  width: 85%;
+  font-size: 5vw;
+  width: 84%;
   margin-left:0vw;
 }
 #page4-blue {
@@ -780,7 +782,7 @@ body {
   gap: 3px;
 }
 .blue-elem h4 {
-  font-size: 5.5vw;
+  font-size: 5vw;
   font-weight: 500;
 }
 .blue-elem p {
