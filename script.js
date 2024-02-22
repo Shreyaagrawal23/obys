@@ -1,4 +1,4 @@
-function locomotivesScrolltrigger() {
+  function locomotivesScrolltrigger() {
   gsap.registerPlugin(ScrollTrigger);
 
   // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
@@ -149,6 +149,11 @@ function cursorAnimation() {
     }
   });
 }
+if (
+  !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+    navigator.userAgent
+  )
+) {
 function sheryAnimation() {
   Shery.imageEffect(".img-div", {
     style: 5,
@@ -185,6 +190,7 @@ function sheryAnimation() {
     },
     gooey: true,
   });
+}
 }
 function flag(){
   document.addEventListener("mousemove",function(dets){
